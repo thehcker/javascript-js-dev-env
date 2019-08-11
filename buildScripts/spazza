@@ -1,0 +1,20 @@
+Spazza is a food delivery platform that links the food supplies like restaurants, hotels and food vendors to their customers. There is a gap that we identified between the food suppliers and the consumers and that is the ability to order and have your food delivered on time.
+
+Spazza will serve the Mombasa community which has been mostly ignored by my competitors. At Spazza we help the consumers to make their orders on time of which they may pick them later or have them delivered at the luxury of their offices or homes. Most people working in offices in Mombasa cannot get access to quality and affordable food delivered at their wish. They have to trek to the nearby shack to have a bite or depend on the available food vendor who only shows up during meal time and mostly don't offer a variety of food to choose from. Those who can afford to get quality food from fancy restaurants are mainly exploited because they don't have a platform where they can compare the food prices from these companies. Therefore, Spazza not only offers a platform to benefit the food suppliers but also allows the consumers to select the most suitable service provider who satisfies their need within their budget.
+
+
+I chose this idea because while working as an administrator in a pharmacy I experienced and witnessed what employees working in offices and businesses go through. While conducting a market research survey for the pharmacy I realized that this need was experienced by most employees working in offices and entities but since they have no options to choose from they have to do with what is available.
+
+
+The information I have provided about the company is accurate to the best of my ability but if you have any inquiries or details you would like to know about Spazza please feel free to email me via the email provided earlier.
+
+const expiryDateFormatIsValid = (field) => {
+		  let validDate = RegExp("(0[0-9]|10|11|12)/([0-9]{2})+$");
+		  validDate = validDate.test(field.value);
+		  console.log(validDate)
+		  if(validDate){
+			  return true;
+		  }else{
+			  return false;
+		  }
+	  }
